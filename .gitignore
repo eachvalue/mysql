@@ -1,0 +1,15 @@
+.vagrant
+/cookbooks
+
+# Bundler
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
+
+# Ignore other unneeded files.
+*.swp
+*~
+.DS_Store
+Thumbs.db
